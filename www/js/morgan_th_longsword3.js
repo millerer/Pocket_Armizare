@@ -71,7 +71,7 @@ function morgan_th3_longsword1(){
 		<div class="ui-field-contain" > \
 			<label for="menu_c1_1"></label><br> \
 			<select name = "menu_c1_1" id="menu_c1_1" data-mini="true" stlye = "padding-left: 15%;"> \
-				<option selected="selected" value="img/morgan-images/m383.016r.jpg" onclick = "swap_picture(c1_1, menu_c1_1,text_c1_1, morgan_c1_1)">Selected Version: Morgan</option> \
+				<option selected="selected" value="img/morgan-images/missing.jpg" onclick = "swap_picture(c1_1, menu_c1_1,text_c1_1, morgan_c1_1)">Selected Version: Morgan</option> \
 				<option  value="img/getty-images/1024px-MS_Ludwig_XV_13_27v4.jpg" onclick = "swap_picture(c1_1, menu_c1_1,text_c1_1, getty_c1_1)">Selected Version: Getty</option> \
 			</select> \
 		</div> \
