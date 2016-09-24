@@ -47,7 +47,7 @@ function morgan_th3_longsword1(){
 		var c1_1= '\
 		<h2 style = "padding-left: 5%">Introduction to the Close Plays of the Sword</h2>\
 		<br><div style="width:80%; text-align:center;"> \
-			<img src = "img/morgan-images/m383.016r.jpg" style="max-height: 100%; max-width: 100%; padding-left: 15%;" id = "c1_1"> \
+			<img src = "img/morgan-images/missing.jpg" style="max-height: 100%; max-width: 100%; padding-left: 15%;" id = "c1_1"> \
 		</div>';
 
 		//image text intro
