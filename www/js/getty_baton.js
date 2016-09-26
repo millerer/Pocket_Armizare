@@ -69,7 +69,7 @@ function getty_baton_1(){
 		<form style="width:80%; text-align:center; padding-left: 20%;"> \
 		<div class="ui-field-contain" > \
 			<label for="menu_c1_1"></label><br> \
-			<select name = "menu_c1_1" id="menu_c1_1" data-mini="true" stlye = "padding-left: 15%;"> \
+			<select name = "menu_c1_1" id="menu_c1_1" data-mini="true" stlye = "padding-left: 15%;"  data-native-menu="false"> \
 				<option selected="selected" value="img/getty-images/1024px-MS_Ludwig_XV_13_08v-1.jpg" onclick = "swap_picture(c1_1, menu_c1_1,text_c1_1, getty_c1_1)">Selected Version: Getty</option> \
 				<option value="img/PD-images/1024px-Pisani-Dossi_MS_05b5.jpg" onclick = "swap_picture(c1_1, menu_c1_1,text_c1_1, pd_text_c1_1)">Selected Version: Pisani-Dossi</option> \
 			</select> \
