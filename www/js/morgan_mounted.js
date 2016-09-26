@@ -2525,11 +2525,4 @@ function morgan_mounted9(){
 }
 
 
-//swap pictures between getty and other versions
-function swap_picture(picture_id, menu_id, text_parent, text_child){
-	console.log(text_child.id);
-	var new_picture = $('#'+menu_id.id).val();
-	$('#'+picture_id.id).attr('src',new_picture);
-	$('#'+text_parent.id).children().hide();
-	$('#'+text_child.id).show();
-}
+ 
