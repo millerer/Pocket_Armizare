@@ -23,6 +23,9 @@
 	Auto local storage syntax adapted from :
 	https://gist.github.com/JKirchartz/1394920 and http://stackoverflow.com/questions/11179406/jquery-get-value-of-select-onchange
 	
+	syntax for attaching an 'oncall' attribute to an <option> tag taken from :
+	http://stackoverflow.com/questions/4340690/javascript-onclick-alert-not-working-in-chrome
+	
 */
 
 //swap pictures and descripttive text between manuscript versions
@@ -31,7 +34,7 @@
 function swap_picture(picture_id, menu_id, text_parent, text_child){
 	console.log(text_child.id);
 	var new_picture = $('#'+menu_id.id).val();
-	$('#'+picture_id.id).attr('src',new_picture);
+	$('#'+picture_id).attr('src',new_picture);
 	$('#'+text_parent.id).children().hide();
 	$('#'+text_child.id).show();
 }

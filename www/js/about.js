@@ -23,6 +23,9 @@
 	Auto local storage syntax adapted from :
 	https://gist.github.com/JKirchartz/1394920 and http://stackoverflow.com/questions/11179406/jquery-get-value-of-select-onchange
 	
+	syntax for attaching an 'oncall' attribute to an <option> tag taken from :
+	http://stackoverflow.com/questions/4340690/javascript-onclick-alert-not-working-in-chrome
+	
 */
 
 //about
@@ -94,7 +97,7 @@ function about_2(){
 	}
 }
 
-//sources
+//future updates
 function about_3(){
 	
 	
@@ -113,7 +116,7 @@ function about_3(){
 		
 		//text about this app
 		var main_text = '<h2>Future Updates</h2><div id = main_c3_1 style="display: none; width:80%;  padding-left: 10%;">\
-		Future planned updates for this application include a search feature, a biography of Fiore and history of Armizare, \
+		Future planned updates for this application include a biography of Fiore, a history of Armizare, \
 		and an additional revised ordering of the Florius manuscript.<br><br>\
 		</div>';
 

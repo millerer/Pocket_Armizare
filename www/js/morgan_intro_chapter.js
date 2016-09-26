@@ -23,6 +23,9 @@
 	Auto local storage syntax adapted from :
 	https://gist.github.com/JKirchartz/1394920 and http://stackoverflow.com/questions/11179406/jquery-get-value-of-select-onchange
 	
+	syntax for attaching an 'oncall' attribute to an <option> tag taken from :
+	http://stackoverflow.com/questions/4340690/javascript-onclick-alert-not-working-in-chrome
+	
 */
 
 //first section: Fiore's Introduction
@@ -112,11 +115,11 @@ function morgan_introduction_1(){
 		<form style="width:80%; text-align:center; padding-left: 20%;"> \
 		<div class="ui-field-contain" > \
 			<label for="menu_c1_1"></label><br> \
-			<select name = "menu_c1_1" id="menu_c1_1" data-mini="true" stlye = "padding-left: 15%;"> \
-				<option selected="selected" value="img/morgan-images/m383.001r.jpg" onclick = "swap_picture(c1_1, menu_c1_1,text_c1_1, morgan_c1_1);", ">Selected Version: Morgan</option> \
-				<option  value="img/getty-images/1024px-MS_Ludwig_XV_13_01r.jpg" onclick = "swap_picture(c1_1, menu_c1_1,text_c1_1, getty_c1_1)">Selected Version: Getty</option> \
-				<option value="img/PD-images/1024px-Pisani-Dossi_MS_02b.jpg" onclick = "swap_picture(c1_1,menu_c1_1,text_c1_1, pd_texta_c1_1);">Selected Version: Pisani-Dossi Latin Intro</option> \
-				<option value="img/PD-images/1024px-Pisani-Dossi_MS_02a.jpg" onclick = "swap_picture(c1_1,menu_c1_1,text_c1_1, pd_textb_c1_1);">Selected Version: Pisani-Dossi Itallian Intro</option> \
+			<select name = "menu_c1_1" id="menu_c1_1" data-mini="true" stlye = "padding-left: 15%;" onchange = "this.options[this.selectedIndex].onclick()" onchange = "this.options[this.selectedIndex].onclick()"> \
+				<option selected="selected" value="img/morgan-images/m383.001r.jpg" onclick = "swap_picture(\'c1_1, menu_c1_1,text_c1_1, morgan_c1_1);", ">Selected Version: Morgan</option> \
+				<option  value="img/getty-images/1024px-MS_Ludwig_XV_13_01r.jpg" onclick = "swap_picture(\'c1_1, menu_c1_1,text_c1_1, getty_c1_1)">Selected Version: Getty</option> \
+				<option value="img/PD-images/1024px-Pisani-Dossi_MS_02b.jpg" onclick = "swap_picture(\'c1_1,menu_c1_1,text_c1_1, pd_texta_c1_1);">Selected Version: Pisani-Dossi Latin Intro</option> \
+				<option value="img/PD-images/1024px-Pisani-Dossi_MS_02a.jpg" onclick = "swap_picture(\'c1_1,menu_c1_1,text_c1_1, pd_textb_c1_1);">Selected Version: Pisani-Dossi Itallian Intro</option> \
 			</select> \
 		</div> \
 		</form>\
@@ -243,9 +246,9 @@ function morgan_introduction_2(){
 		<form style="width:80%; text-align:center; padding-left: 20%;"> \
 		<div class="ui-field-contain" > \
 			<label for="menu_c2_1"></label><br> \
-			<select name = "menu_c2_1" id="menu_c2_1" data-mini="true" stlye = "padding-left: 15%;"> \
-				<option selected="selected" value="img/morgan-images/m383.001r.jpg" onclick = "swap_picture(c2_1, menu_c2_1, text_c2_1, morgan_c2_1)">Selected Version: Morgan</option> \
-				<option  value="img/getty-images/1024px-MS_Ludwig_XV_13_01r.jpg" onclick = "swap_picture(c2_1, menu_c2_1,text_c2_1, getty_c2_1)">Selected Version: Getty</option> \
+			<select name = "menu_c2_1" id="menu_c2_1" data-mini="true" stlye = "padding-left: 15%;" onchange = "this.options[this.selectedIndex].onclick()" onchange = "this.options[this.selectedIndex].onclick()"> \
+				<option selected="selected" value="img/morgan-images/m383.001r.jpg" onclick = "swap_picture(\'c2_1, menu_c2_1, text_c2_1, morgan_c2_1)">Selected Version: Morgan</option> \
+				<option  value="img/getty-images/1024px-MS_Ludwig_XV_13_01r.jpg" onclick = "swap_picture(\'c2_1, menu_c2_1,text_c2_1, getty_c2_1)">Selected Version: Getty</option> \
 			</select> \
 		</div> \
 		</form>\
@@ -362,10 +365,10 @@ function morgan_introduction_3(){
 		<form style="width:80%; text-align:center; padding-left: 20%;"> \
 		<div class="ui-field-contain" > \
 			<label for="menu_c3_1"></label><br> \
-			<select name = "menu_c3_1" id="menu_c3_1" data-mini="true" stlye = "padding-left: 15%;"> \
-				<option selected="selected" value="img/morgan-images/MS_M.383_1v.png" onclick = "swap_picture(c3_1,menu_c3_1, text_c3_1, morgan_c3_1)">Selected Version: Morgan</option> \
-				<option  value="img/getty-images/1024px-MS_Ludwig_XV_13_01v.jpg" onclick = "swap_picture(c3_1, menu_c3_1, text_c3_1, getty_c3_1)">Selected Version: Getty</option> \
-				<option value="img/PD-images/1024px-Pisani-Dossi_MS_02b.jpg" onclick = "swap_picture(c3_1,menu_c3_1, text_c3_1, pd_texta_c3_1);">Selected Version: Pisani-Dossi Latin Intro</option> \
+			<select name = "menu_c3_1" id="menu_c3_1" data-mini="true" stlye = "padding-left: 15%;" onchange = "this.options[this.selectedIndex].onclick()" onchange = "this.options[this.selectedIndex].onclick()"> \
+				<option selected="selected" value="img/morgan-images/MS_M.383_1v.png" onclick = "swap_picture(\'c3_1,menu_c3_1, text_c3_1, morgan_c3_1)">Selected Version: Morgan</option> \
+				<option  value="img/getty-images/1024px-MS_Ludwig_XV_13_01v.jpg" onclick = "swap_picture(\'c3_1, menu_c3_1, text_c3_1, getty_c3_1)">Selected Version: Getty</option> \
+				<option value="img/PD-images/1024px-Pisani-Dossi_MS_02b.jpg" onclick = "swap_picture(\'c3_1,menu_c3_1, text_c3_1, pd_texta_c3_1);">Selected Version: Pisani-Dossi Latin Intro</option> \
 			</select> \
 		</div> \
 		</form>\
@@ -493,11 +496,11 @@ function morgan_introduction_4(){
 		<form style="width:80%; text-align:center; padding-left: 20%;"> \
 		<div class="ui-field-contain" > \
 			<label for="menu_c4_1"></label><br> \
-			<select name = "menu_c4_1" id="menu_c4_1" data-mini="true" stlye = "padding-left: 15%;"> \
-				<option selected="selected" value="img/morgan-images/MS_M.383_1v.png" onclick = "swap_picture(c4_1,menu_c4_1,text_c4_1, morgan_c4_1)">Selected Version: Morgan</option> \
-				<option  value="img/getty-images/1024px-MS_Ludwig_XV_13_01v.jpg" onclick = "swap_picture(c4_1, menu_c4_1, text_c4_1, getty_c4_1)">Selected Version: Getty</option> \
-				<option value="img/PD-images/1024px-Pisani-Dossi_MS_02b.jpg" onclick = "swap_picture(c4_1,menu_c4_1, text_c4_1,  pd_texta_c4_1)">Selected Version: Pisani-Dossi Latin Intro</option> \
-				<option value="img/PD-images/1024px-Pisani-Dossi_MS_02a.jpg" onclick = "swap_picture(c4_1,menu_c4_1, text_c4_1,  pd_textb_c4_1)">Selected Version: Pisani-Dossi Itallian Intro</option> \
+			<select name = "menu_c4_1" id="menu_c4_1" data-mini="true" stlye = "padding-left: 15%;" onchange = "this.options[this.selectedIndex].onclick()" onchange = "this.options[this.selectedIndex].onclick()"> \
+				<option selected="selected" value="img/morgan-images/MS_M.383_1v.png" onclick = "swap_picture(\'c4_1,menu_c4_1,text_c4_1, morgan_c4_1)">Selected Version: Morgan</option> \
+				<option  value="img/getty-images/1024px-MS_Ludwig_XV_13_01v.jpg" onclick = "swap_picture(\'c4_1, menu_c4_1, text_c4_1, getty_c4_1)">Selected Version: Getty</option> \
+				<option value="img/PD-images/1024px-Pisani-Dossi_MS_02b.jpg" onclick = "swap_picture(\'c4_1,menu_c4_1, text_c4_1,  pd_texta_c4_1)">Selected Version: Pisani-Dossi Latin Intro</option> \
+				<option value="img/PD-images/1024px-Pisani-Dossi_MS_02a.jpg" onclick = "swap_picture(\'c4_1,menu_c4_1, text_c4_1,  pd_textb_c4_1)">Selected Version: Pisani-Dossi Itallian Intro</option> \
 			</select> \
 		</div> \
 		</form>\
@@ -685,10 +688,10 @@ function morgan_introduction_5 (){
 		<form style="width:80%; text-align:center; padding-left: 20%;"> \
 		<div class="ui-field-contain" > \
 			<label for="menu_c5_1"></label><br> \
-			<select name = "menu_c5_1" id="menu_c5_1" data-mini="true" stlye = "padding-left: 15%;"> \
-				<option  selected="selected" value="img/morgan-images/MS_M.383_2r.png" onclick = "swap_picture(c5_1,menu_c5_1, text_c5_1,  morgan_c5_1)">Selected Version: Morgan</option> \
-				<option  value="img/getty-images/1024px-MS_Ludwig_XV_13_02r.jpg" onclick = "swap_picture(c5_1, menu_c5_1, text_c5_1, getty_c5_1)">Selected Version: Getty</option> \
-				<option  value="img/PD-images/1024px-Pisani-Dossi_MS_02a.jpg" onclick = "swap_picture(c5_1,menu_c5_1, text_c5_1,  pd_textb_c5_1)">Selected Version: Pisani-Dossi Itallian Intro</option> \
+			<select name = "menu_c5_1" id="menu_c5_1" data-mini="true" stlye = "padding-left: 15%;" onchange = "this.options[this.selectedIndex].onclick()" onchange = "this.options[this.selectedIndex].onclick()"> \
+				<option  selected="selected" value="img/morgan-images/MS_M.383_2r.png" onclick = "swap_picture(\'c5_1,menu_c5_1, text_c5_1,  morgan_c5_1)">Selected Version: Morgan</option> \
+				<option  value="img/getty-images/1024px-MS_Ludwig_XV_13_02r.jpg" onclick = "swap_picture(\'c5_1, menu_c5_1, text_c5_1, getty_c5_1)">Selected Version: Getty</option> \
+				<option  value="img/PD-images/1024px-Pisani-Dossi_MS_02a.jpg" onclick = "swap_picture(\'c5_1,menu_c5_1, text_c5_1,  pd_textb_c5_1)">Selected Version: Pisani-Dossi Itallian Intro</option> \
 			</select> \
 		</div> \
 		</form>\
