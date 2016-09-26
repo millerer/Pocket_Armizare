@@ -131,8 +131,8 @@ function getty_baton_1(){
 		<div class="ui-field-contain" > \
 			<label for="menu_c1_2"></label><br> \
 			<select name = "menu_c1_2" id="menu_c1_2" data-mini="true" stlye = "padding-left: 15%;" onchange = "this.options[this.selectedIndex].onclick()"> \
-				<option selected="selected" value="img/getty-images/1024px-MS_Ludwig_XV_13_08v-2.jpg" onclick = "swap_picture(\'c1_2\', menu_c1_2,text_c1_2, getty_c1_2)">Selected Version: Getty</option> \
-				<option value="img/PD-images/1024px-Pisani-Dossi_MS_05b6.jpg" onclick = "swap_picture(\'c1_2\', menu_c1_2,text_c1_2, pd_text_c1_2)">Selected Version: Pisani-Dossi</option> \
+				<option selected="selected" value="img/getty-images/1024px-MS_Ludwig_XV_13_08v-2.jpg" onclick = "swap_picture(\'c1_2\'\', menu_c1_2,text_c1_2, getty_c1_2)">Selected Version: Getty</option> \
+				<option value="img/PD-images/1024px-Pisani-Dossi_MS_05b6.jpg" onclick = "swap_picture(\'c1_2\'\', menu_c1_2,text_c1_2, pd_text_c1_2)">Selected Version: Pisani-Dossi</option> \
 			</select> \
 		</div> \
 		</form>\
@@ -188,7 +188,7 @@ function getty_baton_1(){
 		<div class="ui-field-contain" > \
 			<label for="menu_c1_3"></label><br> \
 			<select name = "menu_c1_3" id="menu_c1_3" data-mini="true" stlye = "padding-left: 15%;" onchange = "this.options[this.selectedIndex].onclick()"> \
-				<option selected="selected" value="img/getty-images/1024px-MS_Ludwig_XV_13_08v-3.jpg" onclick = "swap_picture(\'c1_3\', menu_c1_3,text_c1_3, getty_c1_3)">Selected Version: Getty</option> \
+				<option selected="selected" value="img/getty-images/1024px-MS_Ludwig_XV_13_08v-3.jpg" onclick = "swap_picture(\'c1_3\'\', menu_c1_3,text_c1_3, getty_c1_3)">Selected Version: Getty</option> \
 			</select> \
 		</div> \
 		</form>\
@@ -243,7 +243,7 @@ function getty_baton_1(){
 		<div class="ui-field-contain" > \
 			<label for="menu_c1_4"></label><br> \
 			<select name = "menu_c1_4" id="menu_c1_4" data-mini="true" stlye = "padding-left: 15%;" onchange = "this.options[this.selectedIndex].onclick()"> \
-				<option selected="selected" value="img/getty-images/1024px-MS_Ludwig_XV_13_08v-4.jpg" onclick = "swap_picture(\'c1_4\', menu_c1_4,text_c1_4, getty_c1_4)">Selected Version: Getty</option> \
+				<option selected="selected" value="img/getty-images/1024px-MS_Ludwig_XV_13_08v-4.jpg" onclick = "swap_picture(\'c1_4\'\', menu_c1_4,text_c1_4, getty_c1_4)">Selected Version: Getty</option> \
 			</select> \
 		</div> \
 		</form>\

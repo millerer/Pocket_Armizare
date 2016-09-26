@@ -83,10 +83,10 @@
 		<div class="ui-field-contain" > \
 			<label for="menu_c1_1"></label><br> \
 			<select name = "menu_c1_1" id="menu_c1_1" data-mini="true" stlye = "padding-left: 15%;" onchange = "this.options[this.selectedIndex].onclick()" onchange = "this.options[this.selectedIndex].onclick()"> \
-				<option selected="selected" value="img/florius-images/f31.highresa.jpg" onclick = "swap_picture(\'c1_1, menu_c1_1,text_c1_1, florius_text_c1_1)">Selected Version: Florius</option> \
-				<option  value="img/getty-images/1024px-MS_Ludwig_XV_13_25r2.jpg" onclick = "swap_picture(\'c1_1, menu_c1_1,text_c1_1, getty_c1_1)">Selected Version: Getty</option> \
-				<option  value="img/PD-images/1024px-Pisani-Dossi_MS_19b1.jpg" onclick = "swap_picture(\'c1_1, menu_c1_1,text_c1_1, pd_text_c1_1)">Selected Version: Pisani-Dossi</option> \
-				<option value="img/morgan-images/m383.013vd.jpg" onclick = "swap_picture(\'c1_1, menu_c1_1,text_c1_1, morgan_c1_1)">Selected Version: Morgan</option> \
+				<option selected="selected" value="img/florius-images/f31.highresa.jpg" onclick = "swap_picture(\'c1_1\', menu_c1_1,text_c1_1, florius_text_c1_1)">Selected Version: Florius</option> \
+				<option  value="img/getty-images/1024px-MS_Ludwig_XV_13_25r2.jpg" onclick = "swap_picture(\'c1_1\', menu_c1_1,text_c1_1, getty_c1_1)">Selected Version: Getty</option> \
+				<option  value="img/PD-images/1024px-Pisani-Dossi_MS_19b1.jpg" onclick = "swap_picture(\'c1_1\', menu_c1_1,text_c1_1, pd_text_c1_1)">Selected Version: Pisani-Dossi</option> \
+				<option value="img/morgan-images/m383.013vd.jpg" onclick = "swap_picture(\'c1_1\', menu_c1_1,text_c1_1, morgan_c1_1)">Selected Version: Morgan</option> \
 			</select> \
 		</div> \
 		</form>\
@@ -147,10 +147,10 @@
 		<div class="ui-field-contain" > \
 			<label for="menu_c1_2"></label><br> \
 			<select name = "menu_c1_2" id="menu_c1_2" data-mini="true" stlye = "padding-left: 15%;" onchange = "this.options[this.selectedIndex].onclick()" onchange = "this.options[this.selectedIndex].onclick()"> \
-				<option selected="selected" value="img/florius-images/f31.highresb.jpg" onclick = "swap_picture(\'c1_2, menu_c1_2,text_c1_2, florius_text_c1_2)">Selected Version: Florius</option> \
-				<option value="img/getty-images/1024px-MS_Ludwig_XV_13_25r3.jpg" onclick = "swap_picture(\'c1_2, menu_c1_2,text_c1_2, getty_c1_2)">Selected Version: Getty</option> \
-				<option   value="img/PD-images/1024px-Pisani-Dossi_MS_19b2.jpg" onclick = "swap_picture(\'c1_2, menu_c1_2,text_c1_2, pd_text_c1_2)">Selected Version: Pisani-Dossi</option> \
-				<option  value="img/morgan-images/m383.013vb.jpg" onclick = "swap_picture(\'c1_2, menu_c1_2,text_c1_2, morgan_c1_2)">Selected Version: Morgan</option> \
+				<option selected="selected" value="img/florius-images/f31.highresb.jpg" onclick = "swap_picture(\'c1_2\', menu_c1_2,text_c1_2, florius_text_c1_2)">Selected Version: Florius</option> \
+				<option value="img/getty-images/1024px-MS_Ludwig_XV_13_25r3.jpg" onclick = "swap_picture(\'c1_2\', menu_c1_2,text_c1_2, getty_c1_2)">Selected Version: Getty</option> \
+				<option   value="img/PD-images/1024px-Pisani-Dossi_MS_19b2.jpg" onclick = "swap_picture(\'c1_2\', menu_c1_2,text_c1_2, pd_text_c1_2)">Selected Version: Pisani-Dossi</option> \
+				<option  value="img/morgan-images/m383.013vb.jpg" onclick = "swap_picture(\'c1_2\', menu_c1_2,text_c1_2, morgan_c1_2)">Selected Version: Morgan</option> \
 			</select> \
 		</div> \
 		</form>\
@@ -243,10 +243,10 @@ function florius_th2_longsword2(){
 		<div class="ui-field-contain" > \
 			<label for="menu_c2_1"></label><br> \
 			<select name = "menu_c2_1" id="menu_c2_1" data-mini="true" stlye = "padding-left: 15%;" onchange = "this.options[this.selectedIndex].onclick()" onchange = "this.options[this.selectedIndex].onclick()"> \
-				<option selected="selected" value="img/florius-images/f32.highresa.jpg" onclick = "swap_picture(\'c2_1, menu_c2_1,text_c2_1, florius_text_c2_1)">Selected Version: Florius</option> \
-				<option value="img/getty-images/1024px-MS_Ludwig_XV_13_25v1.jpg" onclick = "swap_picture(\'c2_1, menu_c2_1,text_c2_1, getty_c2_1)">Selected Version: Getty</option> \
-				<option  value="img/PD-images/1024px-Pisani-Dossi_MS_19b3.jpg" onclick = "swap_picture(\'c2_1, menu_c2_1,text_c2_1, pd_text_c2_1)">Selected Version: Pisani-Dossi</option> \
-				<option value="img/morgan-images/m383.013vd.jpg" onclick = "swap_picture(\'c2_1, menu_c2_1,text_c2_1, morgan_c2_1)">Selected Version: Morgan</option> \
+				<option selected="selected" value="img/florius-images/f32.highresa.jpg" onclick = "swap_picture(\'c2_1\', menu_c2_1,text_c2_1, florius_text_c2_1)">Selected Version: Florius</option> \
+				<option value="img/getty-images/1024px-MS_Ludwig_XV_13_25v1.jpg" onclick = "swap_picture(\'c2_1\', menu_c2_1,text_c2_1, getty_c2_1)">Selected Version: Getty</option> \
+				<option  value="img/PD-images/1024px-Pisani-Dossi_MS_19b3.jpg" onclick = "swap_picture(\'c2_1\', menu_c2_1,text_c2_1, pd_text_c2_1)">Selected Version: Pisani-Dossi</option> \
+				<option value="img/morgan-images/m383.013vd.jpg" onclick = "swap_picture(\'c2_1\', menu_c2_1,text_c2_1, morgan_c2_1)">Selected Version: Morgan</option> \
 			</select> \
 		</div> \
 		</form>\
@@ -306,10 +306,10 @@ function florius_th2_longsword2(){
 		<div class="ui-field-contain" > \
 			<label for="menu_c2_2"></label><br> \
 			<select name = "menu_c2_2" id="menu_c2_2" data-mini="true" stlye = "padding-left: 15%;" onchange = "this.options[this.selectedIndex].onclick()" onchange = "this.options[this.selectedIndex].onclick()"> \
-				<option selected="selected" value="img/florius-images/f32.highresb.jpg" onclick = "swap_picture(\'c2_2, menu_c2_2,text_c2_2, florius_text_c2_2)">Selected Version: Florius</option> \
-				<option value="img/getty-images/1024px-MS_Ludwig_XV_13_25v2.jpg" onclick = "swap_picture(\'c2_2, menu_c2_2,text_c2_2, getty_c2_2)">Selected Version: Getty</option> \
-				<option  value="img/PD-images/1024px-Pisani-Dossi_MS_19b4.jpg" onclick = "swap_picture(\'c2_2, menu_c2_2,text_c2_2, pd_text_c2_2)">Selected Version: Pisani-Dossi</option> \
-				<option value="img/morgan-images/m383.013vc.jpg" onclick = "swap_picture(\'c2_2, menu_c2_2,text_c2_2, morgan_c2_2)">Selected Version: Morgan</option> \
+				<option selected="selected" value="img/florius-images/f32.highresb.jpg" onclick = "swap_picture(\'c2_2\', menu_c2_2,text_c2_2, florius_text_c2_2)">Selected Version: Florius</option> \
+				<option value="img/getty-images/1024px-MS_Ludwig_XV_13_25v2.jpg" onclick = "swap_picture(\'c2_2\', menu_c2_2,text_c2_2, getty_c2_2)">Selected Version: Getty</option> \
+				<option  value="img/PD-images/1024px-Pisani-Dossi_MS_19b4.jpg" onclick = "swap_picture(\'c2_2\', menu_c2_2,text_c2_2, pd_text_c2_2)">Selected Version: Pisani-Dossi</option> \
+				<option value="img/morgan-images/m383.013vc.jpg" onclick = "swap_picture(\'c2_2\', menu_c2_2,text_c2_2, morgan_c2_2)">Selected Version: Morgan</option> \
 			</select> \
 		</div> \
 		</form>\
@@ -374,10 +374,10 @@ function florius_th2_longsword2(){
 		<div class="ui-field-contain" > \
 			<label for="menu_c2_3"></label><br> \
 			<select name = "menu_c2_3" id="menu_c2_3" data-mini="true" stlye = "padding-left: 15%;" onchange = "this.options[this.selectedIndex].onclick()" onchange = "this.options[this.selectedIndex].onclick()"> \
-				<option selected="selected" value="img/florius-images/f33.highresa.jpg" onclick = "swap_picture(\'c2_3, menu_c2_3,text_c2_3, florius_text_c2_3)">Selected Version: Florius</option> \
-				<option value="img/getty-images/1024px-MS_Ludwig_XV_13_26v1.jpg" onclick = "swap_picture(\'c2_3, menu_c2_3,text_c2_3, getty_c2_3)">Selected Version: Getty</option> \
-				<option  value="img/PD-images/1024px-Pisani-Dossi_MS_20b3.jpg" onclick = "swap_picture(\'c2_3, menu_c2_3,text_c2_3, pd_text_c2_3)">Selected Version: Pisani-Dossi</option> \
-				<option value="img/morgan-images/m383.014vd.jpg" onclick = "swap_picture(\'c2_3, menu_c2_3,text_c2_3, morgan_c2_3)">Selected Version: Morgan</option> \
+				<option selected="selected" value="img/florius-images/f33.highresa.jpg" onclick = "swap_picture(\'c2_3\', menu_c2_3,text_c2_3, florius_text_c2_3)">Selected Version: Florius</option> \
+				<option value="img/getty-images/1024px-MS_Ludwig_XV_13_26v1.jpg" onclick = "swap_picture(\'c2_3\', menu_c2_3,text_c2_3, getty_c2_3)">Selected Version: Getty</option> \
+				<option  value="img/PD-images/1024px-Pisani-Dossi_MS_20b3.jpg" onclick = "swap_picture(\'c2_3\', menu_c2_3,text_c2_3, pd_text_c2_3)">Selected Version: Pisani-Dossi</option> \
+				<option value="img/morgan-images/m383.014vd.jpg" onclick = "swap_picture(\'c2_3\', menu_c2_3,text_c2_3, morgan_c2_3)">Selected Version: Morgan</option> \
 			</select> \
 		</div> \
 		</form>\
@@ -440,10 +440,10 @@ function florius_th2_longsword2(){
 		<div class="ui-field-contain" > \
 			<label for="menu_c2_4"></label><br> \
 			<select name = "menu_c2_4" id="menu_c2_4" data-mini="true" stlye = "padding-left: 15%;" onchange = "this.options[this.selectedIndex].onclick()" onchange = "this.options[this.selectedIndex].onclick()"> \
-				<option selected="selected" value="img/florius-images/f33.highresb.jpg" onclick = "swap_picture(\'c2_4, menu_c2_4,text_c2_4, florius_text_c2_4)">Selected Version: Florius</option> \
-				<option value="img/getty-images/1024px-MS_Ludwig_XV_13_26v2.jpg" onclick = "swap_picture(\'c2_4, menu_c2_4,text_c2_4, getty_c2_4)">Selected Version: Getty</option> \
-				<option   value="img/PD-images/1024px-Pisani-Dossi_MS_20b4.jpg" onclick = "swap_picture(\'c2_4, menu_c2_4,text_c2_4, pd_text_c2_4)">Selected Version: Pisani-Dossi</option> \
-				<option  value="img/morgan-images/m383.014vc.jpg" onclick = "swap_picture(\'c2_4, menu_c2_4,text_c2_4, morgan_c2_4)">Selected Version: Morgan</option> \
+				<option selected="selected" value="img/florius-images/f33.highresb.jpg" onclick = "swap_picture(\'c2_4\', menu_c2_4,text_c2_4, florius_text_c2_4)">Selected Version: Florius</option> \
+				<option value="img/getty-images/1024px-MS_Ludwig_XV_13_26v2.jpg" onclick = "swap_picture(\'c2_4\', menu_c2_4,text_c2_4, getty_c2_4)">Selected Version: Getty</option> \
+				<option   value="img/PD-images/1024px-Pisani-Dossi_MS_20b4.jpg" onclick = "swap_picture(\'c2_4\', menu_c2_4,text_c2_4, pd_text_c2_4)">Selected Version: Pisani-Dossi</option> \
+				<option  value="img/morgan-images/m383.014vc.jpg" onclick = "swap_picture(\'c2_4\', menu_c2_4,text_c2_4, morgan_c2_4)">Selected Version: Morgan</option> \
 			</select> \
 		</div> \
 		</form>\
@@ -507,9 +507,9 @@ function florius_th2_longsword2(){
 		<div class="ui-field-contain" > \
 			<label for="menu_c2_5"></label><br> \
 			<select name = "menu_c2_5" id="menu_c2_5" data-mini="true" stlye = "padding-left: 15%;" onchange = "this.options[this.selectedIndex].onclick()" onchange = "this.options[this.selectedIndex].onclick()"> \
-				<option selected="selected" value="img/florius-images/f34.highresa.jpg" onclick = "swap_picture(\'c2_5, menu_c2_5,text_c2_5, florius_text_c2_5)">Selected Version: Florius</option> \
-				<option value="img/getty-images/1024px-MS_Ludwig_XV_13_26v3.jpg" onclick = "swap_picture(\'c2_5, menu_c2_5,text_c2_5, getty_c2_5)">Selected Version: Getty</option> \
-				<option   value="img/PD-images/1024px-Pisani-Dossi_MS_21a2.jpg" onclick = "swap_picture(\'c2_5, menu_c2_5,text_c2_5, pd_text_c2_5)">Selected Version: Pisani-Dossi</option> \
+				<option selected="selected" value="img/florius-images/f34.highresa.jpg" onclick = "swap_picture(\'c2_5\', menu_c2_5,text_c2_5, florius_text_c2_5)">Selected Version: Florius</option> \
+				<option value="img/getty-images/1024px-MS_Ludwig_XV_13_26v3.jpg" onclick = "swap_picture(\'c2_5\', menu_c2_5,text_c2_5, getty_c2_5)">Selected Version: Getty</option> \
+				<option   value="img/PD-images/1024px-Pisani-Dossi_MS_21a2.jpg" onclick = "swap_picture(\'c2_5\', menu_c2_5,text_c2_5, pd_text_c2_5)">Selected Version: Pisani-Dossi</option> \
 			</select> \
 		</div> \
 		</form>\
@@ -567,9 +567,9 @@ function florius_th2_longsword2(){
 		<div class="ui-field-contain" > \
 			<label for="menu_c2_6"></label><br> \
 			<select name = "menu_c2_6" id="menu_c2_6" data-mini="true" stlye = "padding-left: 15%;" onchange = "this.options[this.selectedIndex].onclick()" onchange = "this.options[this.selectedIndex].onclick()"> \
-				<option selected="selected" value="img/f34.highresb.jpg" onclick = "swap_picture(\'c2_6, menu_c2_6,text_c2_6, florius_text_c2_6)">Selected Version: Florius</option> \
-				<option value="img/getty-images/1024px-MS_Ludwig_XV_13_26v4.jpg" onclick = "swap_picture(\'c2_6, menu_c2_6,text_c2_6, getty_c2_6)">Selected Version: Getty</option> \
-				<option   value="img/PD-images/1024px-Pisani-Dossi_MS_21a1.jpg" onclick = "swap_picture(\'c2_6, menu_c2_6,text_c2_6, pd_text_c2_6)">Selected Version: Pisani-Dossi</option> \
+				<option selected="selected" value="img/f34.highresb.jpg" onclick = "swap_picture(\'c2_6\', menu_c2_6,text_c2_6, florius_text_c2_6)">Selected Version: Florius</option> \
+				<option value="img/getty-images/1024px-MS_Ludwig_XV_13_26v4.jpg" onclick = "swap_picture(\'c2_6\', menu_c2_6,text_c2_6, getty_c2_6)">Selected Version: Getty</option> \
+				<option   value="img/PD-images/1024px-Pisani-Dossi_MS_21a1.jpg" onclick = "swap_picture(\'c2_6\', menu_c2_6,text_c2_6, pd_text_c2_6)">Selected Version: Pisani-Dossi</option> \
 			</select> \
 		</div> \
 		</form>\

@@ -76,8 +76,8 @@ function pd_longsword_strikes1(){
 		<div class="ui-field-contain" > \
 			<label for="menu_c1_1"></label><br> \
 			<select name = "menu_c1_1" id="menu_c1_1" data-mini="true" stlye = "padding-left: 15%;" onchange = "this.options[this.selectedIndex].onclick()" onchange = "this.options[this.selectedIndex].onclick()"> \
-				<option selected="selected" value="img/PD-images/1024px-Pisani-Dossi_MS_12b5.jpg" onclick = "swap_picture(\'c1_1, menu_c1_1,text_c1_1, pd_text_c1_1)">Selected Version: Pisani-Dossi</option> \
-				<option value="img/getty-images/1024px-MS_Ludwig_XV_13_23r1.jpg" onclick = "swap_picture(\'c1_1, menu_c1_1,text_c1_1, getty_c1_1)">Selected Version: Getty</option> \
+				<option selected="selected" value="img/PD-images/1024px-Pisani-Dossi_MS_12b5.jpg" onclick = "swap_picture(\'c1_1\', menu_c1_1,text_c1_1, pd_text_c1_1)">Selected Version: Pisani-Dossi</option> \
+				<option value="img/getty-images/1024px-MS_Ludwig_XV_13_23r1.jpg" onclick = "swap_picture(\'c1_1\', menu_c1_1,text_c1_1, getty_c1_1)">Selected Version: Getty</option> \
 			</select> \
 		</div> \
 		</form>\
@@ -133,8 +133,8 @@ function pd_longsword_strikes1(){
 		<div class="ui-field-contain" > \
 			<label for="menu_c1_2"></label><br> \
 			<select name = "menu_c1_2" id="menu_c1_2" data-mini="true" stlye = "padding-left: 15%;" onchange = "this.options[this.selectedIndex].onclick()" onchange = "this.options[this.selectedIndex].onclick()"> \
-				<option  selected="selected" value="img/PD-images/1024px-Pisani-Dossi_MS_12b6.jpg" onclick = "swap_picture(\'c1_2, menu_c1_2,text_c1_2, pd_text_c1_2)">Selected Version: Pisani-Dossi</option> \
-				<option value="img/getty-images/1024px-MS_Ludwig_XV_13_23r2.jpg" onclick = "swap_picture(\'c1_2, menu_c1_2,text_c1_2, getty_c1_2)">Selected Version: Getty</option> \
+				<option  selected="selected" value="img/PD-images/1024px-Pisani-Dossi_MS_12b6.jpg" onclick = "swap_picture(\'c1_2\', menu_c1_2,text_c1_2, pd_text_c1_2)">Selected Version: Pisani-Dossi</option> \
+				<option value="img/getty-images/1024px-MS_Ludwig_XV_13_23r2.jpg" onclick = "swap_picture(\'c1_2\', menu_c1_2,text_c1_2, getty_c1_2)">Selected Version: Getty</option> \
 			</select> \
 		</div> \
 		</form>\
@@ -193,8 +193,8 @@ function pd_longsword_strikes1(){
 		<div class="ui-field-contain" > \
 			<label for="menu_c1_3"></label><br> \
 			<select name = "menu_c1_3" id="menu_c1_3" data-mini="true" stlye = "padding-left: 15%;" onchange = "this.options[this.selectedIndex].onclick()" onchange = "this.options[this.selectedIndex].onclick()"> \
-				<option selected="selected" value="img/PD-images/1024px-Pisani-Dossi_MS_13a1.jpg" onclick = "swap_picture(\'c1_3, menu_c1_3,text_c1_3, pd_text_c1_3)">Selected Version: Pisani-Dossi</option> \
-				<option value="img/getty-images/1024px-MS_Ludwig_XV_13_23r3.jpg" onclick = "swap_picture(\'c1_3, menu_c1_3,text_c1_3, getty_c1_3)">Selected Version: Getty</option> \
+				<option selected="selected" value="img/PD-images/1024px-Pisani-Dossi_MS_13a1.jpg" onclick = "swap_picture(\'c1_3\', menu_c1_3,text_c1_3, pd_text_c1_3)">Selected Version: Pisani-Dossi</option> \
+				<option value="img/getty-images/1024px-MS_Ludwig_XV_13_23r3.jpg" onclick = "swap_picture(\'c1_3\', menu_c1_3,text_c1_3, getty_c1_3)">Selected Version: Getty</option> \
 			</select> \
 		</div> \
 		</form>\
@@ -254,8 +254,8 @@ function pd_longsword_strikes1(){
 		<div class="ui-field-contain" > \
 			<label for="menu_c1_4"></label><br> \
 			<select name = "menu_c1_4" id="menu_c1_4" data-mini="true" stlye = "padding-left: 15%;" onchange = "this.options[this.selectedIndex].onclick()" onchange = "this.options[this.selectedIndex].onclick()"> \
-				<option  selected="selected" value="img/PD-images/1024px-Pisani-Dossi_MS_13a2.jpg" onclick = "swap_picture(\'c1_4, menu_c1_4,text_c1_4, pd_text_c1_4)">Selected Version: Pisani-Dossi</option> \
-				<option value="img/getty-images/1024px-MS_Ludwig_XV_13_23r4.jpg" onclick = "swap_picture(\'c1_4, menu_c1_4,text_c1_4, getty_c1_4)">Selected Version: Getty</option> \
+				<option  selected="selected" value="img/PD-images/1024px-Pisani-Dossi_MS_13a2.jpg" onclick = "swap_picture(\'c1_4\', menu_c1_4,text_c1_4, pd_text_c1_4)">Selected Version: Pisani-Dossi</option> \
+				<option value="img/getty-images/1024px-MS_Ludwig_XV_13_23r4.jpg" onclick = "swap_picture(\'c1_4\', menu_c1_4,text_c1_4, getty_c1_4)">Selected Version: Getty</option> \
 			</select> \
 		</div> \
 		</form>\

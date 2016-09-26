@@ -108,8 +108,8 @@ function pd_introduction_1(){
 			<label for="menu_c1_1"></label><br> \
 			<select name = "menu_c1_1" id="menu_c1_1" data-mini="true" stlye = "padding-left: 15%;" onchange = "this.options[this.selectedIndex].onclick()" onchange = "this.options[this.selectedIndex].onclick()"> \
 				<option selected="selected" value="img/PD-images/1024px-Pisani-Dossi_MS_02b.jpg" onclick = "swap_picture(\'c1_1,menu_c1_1,text_c1_1, pd_texta_c1_1);">Selected Version: Pisani-Dossi</option> \
-				<option value="img/getty-images/1024px-MS_Ludwig_XV_13_01r.jpg" onclick = "swap_picture(\'c1_1, menu_c1_1,text_c1_1, getty_c1_1)">Selected Version: Getty</option> \
-				<option value="img/morgan-images/m383.001r.jpg" onclick = "swap_picture(\'c1_1, menu_c1_1,text_c1_1, morgan_c1_1);", ">Selected Version: Morgan</option> \
+				<option value="img/getty-images/1024px-MS_Ludwig_XV_13_01r.jpg" onclick = "swap_picture(\'c1_1\', menu_c1_1,text_c1_1, getty_c1_1)">Selected Version: Getty</option> \
+				<option value="img/morgan-images/m383.001r.jpg" onclick = "swap_picture(\'c1_1\', menu_c1_1,text_c1_1, morgan_c1_1);", ">Selected Version: Morgan</option> \
 			</select> \
 		</div> \
 		</form>\
@@ -246,7 +246,7 @@ function pd_introduction_2(){
 			<label for="menu_c2_1"></label><br> \
 			<select name = "menu_c2_1" id="menu_c2_1" data-mini="true" stlye = "padding-left: 15%;" onchange = "this.options[this.selectedIndex].onclick()" onchange = "this.options[this.selectedIndex].onclick()"> \
 				<option selected="selected" value="img/PD-images/1024px-Pisani-Dossi_MS_02b.jpg" onclick = "swap_picture(\'c2_1,menu_c2_1, text_c2_1, pd_texta_c2_1);">Selected Version: Pisani-Dossi</option> \
-				<option  value="img/getty-images/1024px-MS_Ludwig_XV_13_01v.jpg" onclick = "swap_picture(\'c2_1, menu_c2_1, text_c2_1, getty_c2_1)">Selected Version: Getty</option> \
+				<option  value="img/getty-images/1024px-MS_Ludwig_XV_13_01v.jpg" onclick = "swap_picture(\'c2_1\', menu_c2_1, text_c2_1, getty_c2_1)">Selected Version: Getty</option> \
 				<option value="img/morgan-images/MS_M.383_1v.png" onclick = "swap_picture(\'c2_1,menu_c2_1, text_c2_1, morgan_c2_1)">Selected Version: Morgan</option> \
 			</select> \
 		</div> \
@@ -480,7 +480,7 @@ function pd_introduction_4(){
 			<label for="menu_c4_1"></label><br> \
 			<select name = "menu_c4_1" id="menu_c4_1" data-mini="true" stlye = "padding-left: 15%;" onchange = "this.options[this.selectedIndex].onclick()" onchange = "this.options[this.selectedIndex].onclick()"> \
 				<option selected="selected" value="img/PD-images/1024px-Pisani-Dossi_MS_02a.jpg" onclick = "swap_picture(\'c4_1,menu_c4_1, text_c4_1,  pd_textb_c4_1)">Selected Version: Pisani-Dossi</option> \
-				<option  value="img/getty-images/1024px-MS_Ludwig_XV_13_02r.jpg" onclick = "swap_picture(\'c4_1, menu_c4_1, text_c4_1, getty_c4_1)">Selected Version: Getty</option> \
+				<option  value="img/getty-images/1024px-MS_Ludwig_XV_13_02r.jpg" onclick = "swap_picture(\'c4_1\', menu_c4_1, text_c4_1, getty_c4_1)">Selected Version: Getty</option> \
 				<option value="img/morgan-images/MS_M.383_2r.png" onclick = "swap_picture(\'c4_1,menu_c4_1, text_c4_1,  morgan_c4_1)">Selected Version: Morgan</option> \
 			</select> \
 		</div> \
@@ -605,7 +605,7 @@ function pd_introduction_5(){
 			<label for="menu_c5_1"></label><br> \
 			<select name = "menu_c5_1" id="menu_c5_1" data-mini="true" stlye = "padding-left: 15%;" onchange = "this.options[this.selectedIndex].onclick()" onchange = "this.options[this.selectedIndex].onclick()"> \
 				<option selected="selected" value="img/PD-images/1024px-Pisani-Dossi_MS_02a.jpg" onclick = "swap_picture(\'c5_1,menu_c5_1, text_c5_1,  pd_textb_c5_1)">Selected Version: Pisani-Dossi</option> \
-				<option  value="img/getty-images/1024px-MS_Ludwig_XV_13_02r.jpg" onclick = "swap_picture(\'c5_1, menu_c5_1, text_c5_1, getty_c5_1)">Selected Version: Getty</option> \
+				<option  value="img/getty-images/1024px-MS_Ludwig_XV_13_02r.jpg" onclick = "swap_picture(\'c5_1\', menu_c5_1, text_c5_1, getty_c5_1)">Selected Version: Getty</option> \
 			</select> \
 		</div> \
 		</form>\
@@ -750,7 +750,7 @@ function pd_introduction_6(){
 		<div class="ui-field-contain" > \
 			<label for="menu_c6_1"></label><br> \
 			<select name = "menu_c6_1" id="menu_c6_1" data-mini="true" stlye = "padding-left: 15%;" onchange = "this.options[this.selectedIndex].onclick()" onchange = "this.options[this.selectedIndex].onclick()"> \
-				<option selected="selected" value="img/PD-images/1024px-Pisani-Dossi_MS_02a.jpg" onclick = "swap_picture(\'c6_1, menu_c6_1, text_c6_1, pd_textb_c6_1)">Selected Version: Pisani-Dossi</option> \
+				<option selected="selected" value="img/PD-images/1024px-Pisani-Dossi_MS_02a.jpg" onclick = "swap_picture(\'c6_1\', menu_c6_1, text_c6_1, pd_textb_c6_1)">Selected Version: Pisani-Dossi</option> \
 			</select> \
 		</div> \
 		</form>\
@@ -870,9 +870,9 @@ function pd_introduction_7(){
 		<div class="ui-field-contain" > \
 			<label for="menu_c7_1"></label><br> \
 			<select name = "menu_c7_1" id="menu_c7_1" data-mini="true" stlye = "padding-left: 15%;" onchange = "this.options[this.selectedIndex].onclick()" onchange = "this.options[this.selectedIndex].onclick()"> \
-				<option selected="selected" value="img/PD-images/1024px-Pisani-Dossi_MS_02a.jpg" onclick = "swap_picture(\'c7_1, menu_c7_1, text_c7_1, pd_textb_c7_1)">Selected Version: Pisani-Dossi</option> \
-				<option value="img/getty-images/1024px-MS_Ludwig_XV_13_01v.jpg" onclick = "swap_picture(\'c7_1, menu_c7_1, text_c7_1, getty_c7_1)">Selected Version: Getty</option> \
-				<option value="img/morgan-images/MS_M.383_1v.png" onclick = "swap_picture(\'c7_1, menu_c7_1, text_c7_1, morgan_c7_1)">Selected Version: Morgan</option> \
+				<option selected="selected" value="img/PD-images/1024px-Pisani-Dossi_MS_02a.jpg" onclick = "swap_picture(\'c7_1\', menu_c7_1, text_c7_1, pd_textb_c7_1)">Selected Version: Pisani-Dossi</option> \
+				<option value="img/getty-images/1024px-MS_Ludwig_XV_13_01v.jpg" onclick = "swap_picture(\'c7_1\', menu_c7_1, text_c7_1, getty_c7_1)">Selected Version: Getty</option> \
+				<option value="img/morgan-images/MS_M.383_1v.png" onclick = "swap_picture(\'c7_1\', menu_c7_1, text_c7_1, morgan_c7_1)">Selected Version: Morgan</option> \
 			</select> \
 		</div> \
 		</form>\
@@ -969,7 +969,7 @@ function pd_introduction_8(){
 		<div class="ui-field-contain" > \
 			<label for="menu_c8_1"></label><br> \
 			<select name = "menu_c8_1" id="menu_c8_1" data-mini="true" stlye = "padding-left: 15%;" onchange = "this.options[this.selectedIndex].onclick()" onchange = "this.options[this.selectedIndex].onclick()"> \
-				<option selected="selected" value="img/PD-images/1024px-Pisani-Dossi_MS_02a.jpg" onclick = "swap_picture(\'c8_1, menu_c8_1, text_c8_1, pd_textb_c8_1)">Selected Version: Pisani-Dossi</option> \
+				<option selected="selected" value="img/PD-images/1024px-Pisani-Dossi_MS_02a.jpg" onclick = "swap_picture(\'c8_1\', menu_c8_1, text_c8_1, pd_textb_c8_1)">Selected Version: Pisani-Dossi</option> \
 			</select> \
 		</div> \
 		</form>\
