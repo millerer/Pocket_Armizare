@@ -1,4 +1,4 @@
- <?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 
 <!-- 
@@ -13,11 +13,11 @@
     <name>Pocket Armizare</name>
 
     <description>
-         English language reference for Fiore dei Liberi's fencing manual "Fior di Battaglia" for mobile devices.
+        Searchable English translation of Fiore dei Liberi's "Fior di Battaglia" or "The Flower of Battle" for mobile devices.
     </description>
 
-    <author href="https://github.com/millerer/Pocket_Armizare">
-		Eric Miller
+    <author href="https://github.com/millerer/" email="support@phonegap.com">
+        Eric Miller
     </author>
 
     <!-- Define the main entry-point to the application -->
@@ -68,11 +68,15 @@
         <splash src="www/res/screen/wp8/screen-portrait.jpg" platform="wp8" width="768" height="1280" />
     </platform>
 
-    <!-- Define access to external domains.   -->
+    <!--
+        Define access to external domains.
 
-        <access origin="*" />
-		<access uri="*" subdomains="true" />
-		<allow-navigation href="*" />
+        <access />            - a blank access tag denies access to all external resources.
+        <access origin="*" /> - a wildcard access tag allows access to all external resource.
+
+        Otherwise, you can specify specific domains:
+    -->
+    <access origin="*" />
     <!--
        <access origin="http://phonegap.com" />                    - allow any secure requests to http://phonegap.com/
        <access origin="http://phonegap.com" subdomains="true" />  - same as above, but including subdomains, such as http://build.phonegap.com/
