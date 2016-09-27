@@ -86,9 +86,14 @@ function about_2(){
 		//text about this app
 		var main_text = '<h2>Translation and Image Sources</h2><div id = main_c2_1 style="display: none; width:80%;  padding-left: 10%;">\
 		The translations used in this application are sourced from the public domain contributions on <a href=\"http://wiktenauer.com/wiki/Fiore_de\'i_Liberi#cite_note-199\" >Wiktenaur\'s Fiore dei Liberi Article</a> by \
-		Michael Chidester, Colin Hatcher, Kendra Brown, and Rebecca Garber, as well as from Tracy Mellow\'s compilation of the <a href=\"http://www.nwarmizare.com/English_Getty_Manuscript_Rev.pdf\">Getty Manuscript</a>.<br><br> \
-		All images are derived from publicly released scans hosted on Wiktenauer, and are the property of their respective owners and institutions.</div><br><br>';
-
+		Michael Chidester(Pissani-Dossi and Morgan), Colin Hatcher(Getty), Kendra Brown (florius), and Rebecca Garber (Florius), as well as from Tracy Mellow\'s compilation of the <a href=\"http://www.nwarmizare.com/English_Getty_Manuscript_Rev.pdf\">Getty Manuscript</a>.<br><br> \
+		Images are derived from publicly released scans hosted on Wiktenauer, and are the property of their respective owners and institutions.<br><br>\
+		-The Getty Manuscript and all associated images are the property of the J. Paul Getty Museum, LA, California.<br><br>\
+		-The Pissani-Dossi Manuscript is a public domain copy of the original manuscript in the Pissani Dossi family library in Italy.<br><br>\
+		-The Morgan Manuscript and all associated images are the property of the Morgan Library & Museum, New York City, New York.<br><br>\
+		-The Florius Manicript and all associated images are the property of the Bibliothèque nationale de France in Paris, France.\
+		</div><br><br>';
+		
 		//append changes
 		$('#sub2').empty().append(main_text);
 		$('.ui-page-active').page("destroy").page(); 
