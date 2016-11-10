@@ -84,7 +84,7 @@ function getty_baton_1(){
 		
 		//image swap menu 1st scholar
 		var menu_c1_1 = '\
-		<form style="width:80%; text-align:center; padding-left: 20%;"> \
+		<form style="width:80%; text-align:center; padding-left: 35%;"> \
 		<div class="ui-field-contain" > \
 			<label for="menu_c1_1"></label><br> \
 			<select name = "menu_c1_1" id="menu_c1_1" data-mini="true" stlye = "padding-left: 15%;" onchange = "this.options[this.selectedIndex].onclick()" onchange = "this.options[this.selectedIndex].onclick()"> \
