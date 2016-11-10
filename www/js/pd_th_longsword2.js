@@ -1456,15 +1456,5 @@ function pd_th2_longsword4(){
 	}
 }
 
-//swap pictures and descripttive text between manuscript versions
-//picture_id = id of picture element to be changed\', menu_id = id of menu that contains user switch choice, 
-//text_parent is the parent div that contains all text descriptions, and text_child is the child text description to display
-function swap_picture(picture_id, menu_id, text_parent, text_child){
-	console.log(text_child.id);
-	var new_picture = $('#'+menu_id.id).val();
-	$('#'+picture_id).attr('src',new_picture);
-	$('#'+text_parent.id).children().hide();
-	$('#'+text_child.id).show();
-}
 
  
