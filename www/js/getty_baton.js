@@ -1,19 +1,4 @@
-/*	Pocket Armizare: A HEMA reference mobile application for the knightly martial art of Armizare 
-	 
-    Copyright (C) 2016  by Eric Miller
-
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>  */
+//The below functions are for printing out chapters of pictures and text to the screen after user selection
 
 /*
 	jqeuery syntax to retain css for ajax appended elements from:
@@ -37,9 +22,6 @@
 	
 	Auto local storage syntax adapted from :
 	https://gist.github.com/JKirchartz/1394920 and http://stackoverflow.com/questions/11179406/jquery-get-value-of-select-onchange
-	
-	syntax for attaching an 'oncall' attribute to an <option> tag taken from :
-	http://stackoverflow.com/questions/4340690/javascript-onclick-alert-not-working-in-chrome
 	
 */
 
@@ -84,12 +66,12 @@ function getty_baton_1(){
 		
 		//image swap menu 1st scholar
 		var menu_c1_1 = '\
-		<form style="width:80%; text-align:center; padding-left: 35%;"> \
+		<form style="width:80%; text-align:center; padding-left: 20%;"> \
 		<div class="ui-field-contain" > \
 			<label for="menu_c1_1"></label><br> \
-			<select name = "menu_c1_1" id="menu_c1_1" data-mini="true" stlye = "padding-left: 15%;" onchange = "this.options[this.selectedIndex].onclick()" onchange = "this.options[this.selectedIndex].onclick()"> \
-				<option selected="selected" value="img/getty-images/1024px-MS_Ludwig_XV_13_08v-1.jpg" onclick = "swap_picture(\'c1_1\', menu_c1_1,text_c1_1, getty_c1_1)">Selected Version: Getty</option> \
-				<option value="img/PD-images/1024px-Pisani-Dossi_MS_05b5.jpg" onclick = "swap_picture(\'c1_1\', menu_c1_1,text_c1_1, pd_text_c1_1)">Selected Version: Pisani-Dossi</option> \
+			<select name = "menu_c1_1" id="menu_c1_1" data-mini="true" stlye = "padding-left: 15%;"> \
+				<option selected="selected" value="img/getty-images/1024px-MS_Ludwig_XV_13_08v-1.jpg" onclick = "swap_picture(c1_1, menu_c1_1,text_c1_1, getty_c1_1)">Selected Version: Getty</option> \
+				<option value="img/PD-images/1024px-Pisani-Dossi_MS_05b5.jpg" onclick = "swap_picture(c1_1, menu_c1_1,text_c1_1, pd_text_c1_1)">Selected Version: Pisani-Dossi</option> \
 			</select> \
 		</div> \
 		</form>\
@@ -103,7 +85,7 @@ function getty_baton_1(){
 
 		var c1_1_note = '\
 		\
-		<form style="width:80%; text-align:center; padding-left: 20%;"> \
+		<form style="width:80%; text-align:center; padding-left: 10%;"> \
 		<div class="ui-field-contain" > \
 			<label for="note_c1_1"><b>Notes:</b></label><br><br> \
 			<textarea id="note_c1_1">\</textarea>\
@@ -145,9 +127,9 @@ function getty_baton_1(){
 		<form style="width:80%; text-align:center; padding-left: 20%;"> \
 		<div class="ui-field-contain" > \
 			<label for="menu_c1_2"></label><br> \
-			<select name = "menu_c1_2" id="menu_c1_2" data-mini="true" stlye = "padding-left: 15%;" onchange = "this.options[this.selectedIndex].onclick()"> \
-				<option selected="selected" value="img/getty-images/1024px-MS_Ludwig_XV_13_08v-2.jpg" onclick = "swap_picture(\'c1_2\'\', menu_c1_2,text_c1_2, getty_c1_2)">Selected Version: Getty</option> \
-				<option value="img/PD-images/1024px-Pisani-Dossi_MS_05b6.jpg" onclick = "swap_picture(\'c1_2\'\', menu_c1_2,text_c1_2, pd_text_c1_2)">Selected Version: Pisani-Dossi</option> \
+			<select name = "menu_c1_2" id="menu_c1_2" data-mini="true" stlye = "padding-left: 15%;"> \
+				<option selected="selected" value="img/getty-images/1024px-MS_Ludwig_XV_13_08v-2.jpg" onclick = "swap_picture(c1_2, menu_c1_2,text_c1_2, getty_c1_2)">Selected Version: Getty</option> \
+				<option value="img/PD-images/1024px-Pisani-Dossi_MS_05b6.jpg" onclick = "swap_picture(c1_2, menu_c1_2,text_c1_2, pd_text_c1_2)">Selected Version: Pisani-Dossi</option> \
 			</select> \
 		</div> \
 		</form>\
@@ -202,8 +184,8 @@ function getty_baton_1(){
 		<form style="width:80%; text-align:center; padding-left: 20%;"> \
 		<div class="ui-field-contain" > \
 			<label for="menu_c1_3"></label><br> \
-			<select name = "menu_c1_3" id="menu_c1_3" data-mini="true" stlye = "padding-left: 15%;" onchange = "this.options[this.selectedIndex].onclick()"> \
-				<option selected="selected" value="img/getty-images/1024px-MS_Ludwig_XV_13_08v-3.jpg" onclick = "swap_picture(\'c1_3\'\', menu_c1_3,text_c1_3, getty_c1_3)">Selected Version: Getty</option> \
+			<select name = "menu_c1_3" id="menu_c1_3" data-mini="true" stlye = "padding-left: 15%;"> \
+				<option selected="selected" value="img/getty-images/1024px-MS_Ludwig_XV_13_08v-3.jpg" onclick = "swap_picture(c1_3, menu_c1_3,text_c1_3, getty_c1_3)">Selected Version: Getty</option> \
 			</select> \
 		</div> \
 		</form>\
@@ -257,8 +239,8 @@ function getty_baton_1(){
 		<form style="width:80%; text-align:center; padding-left: 20%;"> \
 		<div class="ui-field-contain" > \
 			<label for="menu_c1_4"></label><br> \
-			<select name = "menu_c1_4" id="menu_c1_4" data-mini="true" stlye = "padding-left: 15%;" onchange = "this.options[this.selectedIndex].onclick()"> \
-				<option selected="selected" value="img/getty-images/1024px-MS_Ludwig_XV_13_08v-4.jpg" onclick = "swap_picture(\'c1_4\'\', menu_c1_4,text_c1_4, getty_c1_4)">Selected Version: Getty</option> \
+			<select name = "menu_c1_4" id="menu_c1_4" data-mini="true" stlye = "padding-left: 15%;"> \
+				<option selected="selected" value="img/getty-images/1024px-MS_Ludwig_XV_13_08v-4.jpg" onclick = "swap_picture(c1_4, menu_c1_4,text_c1_4, getty_c1_4)">Selected Version: Getty</option> \
 			</select> \
 		</div> \
 		</form>\
@@ -301,5 +283,3 @@ function getty_baton_1(){
 	}
 }
 
-
- 
