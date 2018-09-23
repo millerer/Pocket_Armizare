@@ -8,7 +8,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.phonegap.pocketarmizare"
-        version   = "1.0.2">
+        version   = "1.0.1">
 
     <name>Pocket Armizare</name>
 
@@ -26,9 +26,9 @@
     <!-- Customize your app and platform with the preference element-->
     <preference name="permissions"         value="none" />
 	<preference name="EnableViewportScale"        value="true" />
-
+	
     <!-- Define a specific version of PhoneGap to build into your app. -->
-    <!-- <preference name="phonegap-version"       value="cli-6.0.0" /> -->
+    <preference name="phonegap-version" value="cli-6.5.0" />
 
     <!-- Plugins -->
 
