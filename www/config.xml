@@ -25,7 +25,9 @@
 
     <!-- Customize your app and platform with the preference element-->
     <preference name="permissions"         value="none" />
-	<preference name="EnableViewportScale"        value="true" />
+    <preference name="EnableViewportScale"        value="true" />
+    <preference name="android-minSdkVersion" value="26" />
+    <preference name="android-targetSdkVersion" value="26" />
 	
     <!-- Define a specific version of PhoneGap to build into your app. -->
     <preference name="phonegap-version" value="cli-6.5.0" />
